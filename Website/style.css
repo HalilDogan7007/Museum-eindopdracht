@@ -14,6 +14,12 @@
   font-size: 17px;
 }
 
+.image_logo{
+  height: 50px;
+  
+
+}
+
 
 .active {
   background-color: orange;
@@ -191,9 +197,13 @@
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+
+
 }
 
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
