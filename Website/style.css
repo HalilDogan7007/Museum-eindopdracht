@@ -121,9 +121,16 @@
 * {box-sizing:border-box}
 
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
-  margin: auto;
+  margin: 30px auto auto auto;
+}
+
+
+.tweedeImage{
+  max-width:1000px;
+  border: 10px solid green;
+  padding: 2px;
+  color: black;
 }
 
 .mySlides {
@@ -206,14 +213,23 @@
   to {opacity: 1}
 }
 
+.slideshow-container{
+
+}
+
+img{
+  width:100%;
+}
+
 
 .Geschiedenis{
+  display: inline-block;
   float: right;
   width: 45%;
   padding: 0 15px;
   position: left;
+  border: 2px solid orange; 
 }
-
 
 .History{
   float: right;
@@ -228,3 +244,4 @@
   padding: 0 15px;
   position: right;
 }
+
